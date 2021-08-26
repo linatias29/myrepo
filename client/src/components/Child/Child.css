@@ -1,0 +1,135 @@
+/* .Dashboard-tool{
+    height: 50px;
+    background-color: aqua;
+} */
+@media only screen and (max-width: 768px) {
+
+.child{
+    margin-bottom: 30px;
+    text-align: center;
+    align-items: center;
+   /* justify-self: center; */
+   justify-content: center;
+
+   
+   /* justify-items: center; */
+}
+.child-img{
+    width: 180px;
+    height: 180px;
+    border-radius: 4px;
+    margin-right: -50px;
+    border: 1px #4998B7 solid;
+}
+
+
+.delete{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    position: absolute;
+    top: -13px;
+    left: 0;
+    color: #fe7b6e;
+
+
+    /* margin-right: 40%;
+    margin-top: -15px; */
+   
+}
+.pop-title{
+    color: rgb(22, 129, 158);
+    font-family: 'Alef', sans-serif;
+    margin-top: 10px;
+}
+.edit-child-pop{
+    background-color: rgb(254, 254, 254);
+    border: 1px #4998B7 solid;
+    border-radius: 10px;
+    /* width: 360px;
+    height: 600px; */
+    direction: rtl;
+    align-items: center;
+    text-align: center;
+}
+#pop{
+    height: auto;
+    position: static;
+}
+.update-child{
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    position: absolute;
+    top: -9px;
+    right: 0;
+    color: rgb(22, 129, 158);
+
+}
+.save{
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    margin-right: 40px;
+    margin-top: -15px;
+   
+}
+.child-name{
+    background-color: white;
+font-size: 20px;
+font-weight: bold;
+/* padding-bottom: -15px; */
+margin-top: -166px;
+    /* border: 1px #4998B7 solid; */
+    border-right: 0px;
+    position: absolute;
+    border-radius: 20px;
+right: 120px;
+}
+    .child-details{
+    padding-top: 10px;
+    background-color:rgba(177, 226, 255, 0.598);
+    width: 45%;
+    /* margin: 3px; */
+    margin-top: 0px;
+    color: rgb(17, 80, 97);
+    font-size: 14px;
+    /* margin-left: 10px; */
+    margin-right: -10px;
+    border-radius: 10px;
+    border-top-right-radius:0px ;
+
+
+
+}
+
+
+
+
+.user-welcome{
+    position: absolute;
+    top: 120px;
+    right: 38px;
+    font-family: 'Alef', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(22, 129, 158);
+
+}
+.my-children{
+    position: absolute;
+    top:210px;
+    direction: rtl;
+    width: 100%;
+    right: 30px;
+    font-family: 'Alef', sans-serif;
+    color: rgb(22, 129, 158);
+
+    
+}
+.title-children{
+    display: flex;
+}
+
+
+}
