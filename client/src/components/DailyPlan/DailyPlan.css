@@ -1,0 +1,81 @@
+
+@media only screen and (max-width: 768px) {
+ 
+  .Daily-plan-add-btn{
+      position: absolute;
+      top:75px;
+      right: 20px;
+    margin: 5px;
+    /* margin-top: 50px; */
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 15px;
+    color: black;
+    border: 2px #4998B7 solid;
+    background-color: white;
+    font-size: 16px;
+margin-bottom: 20px;
+    font-family: 'Alef', sans-serif;
+
+}
+#date-piker-select{
+    font-family: 'Alef', sans-serif;
+  width: 100%;
+    align-items: center;
+    text-align: center;
+    border-radius: 7px;
+    border: none;
+    background-color: transparent;
+    
+    /* border: 1px #4998B7 solid;
+    border-left: none;
+    background-color: whitesmoke;
+
+    border-start-start-radius: 0;
+    border-end-start-radius: 0; */
+
+
+}
+.date-select-btn-clean{
+    background-color: transparent;
+    border: none;
+    /* border: 1px #4998B7 solid;
+    border-radius: 7px;
+    border-right: none;
+    border-start-end-radius: 0;
+    border-end-end-radius: 0; */
+
+    /* margin-top: -10px; */
+    
+}
+.date-select{
+    display: flex;
+    position: absolute;
+    left: 45px;
+    margin-top: -10px;
+    width: 80%;
+    border-radius: 7px;
+
+    margin-bottom: 10px;
+    border: 1px #4998B7 solid;
+    border: 1px #4998B7 solid;
+
+    /* top: 0px; */
+}
+.all-day{
+    position: relative;
+    top: 10px;
+    left: 42px;
+}
+.daily-plan{
+    position: relative;
+    margin-top: -100px;
+}
+.DailyPlan{
+    position: relative;
+}
+.DailyPlan-add-btn:hover{
+    background-color: #4998B7;
+
+}
+}
