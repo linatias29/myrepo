@@ -1,0 +1,88 @@
+/* .Dashboard-tool{
+    height: 50px;
+    background-color: aqua;
+} */
+@media only screen and (max-width: 768px) {
+
+
+
+    .day-btn{
+        background-color:rgba(177, 226, 255, 0.598);
+        border: none;
+        font-size: 16px;
+        margin: 3px;
+        padding: 5px;
+        font-family: 'Alef', sans-serif;
+        border-radius: 4px;
+        width: 80%;
+        color: rgb(17, 80, 97);
+    
+    
+    }
+    .delete{
+        background-color: transparent;
+        border: none;
+        font-size: 20px;
+        position: absolute;
+        top: -13px;
+        left: 0;
+        /* margin-right: 40%;
+        margin-top: -15px; */
+       
+    }
+    .save{
+        background-color: transparent;
+        border: none;
+        font-size: 25px;
+        margin-right: 40px;
+        margin-top: -15px;
+       
+    }
+        .user-details{
+        padding-top: 10px;
+        background-color: rgba(114, 230, 203, 0.201);
+        width: 80%;
+        margin: 3px;
+        margin-top: 0px;
+        color: rgb(17, 80, 97);
+        font-size: 14px;
+    
+    
+    
+    }
+    .add-to-event-day-e{
+       
+        margin: 5px;
+        direction: rtl;
+        width: 40%;
+        /* margin-top: 50px; */
+        color: #4998B7;
+        position: relative;
+        margin-right: 35px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 15px;
+        color: black;
+        border: 2px #4998B7 solid;
+        background-color: white;
+      margin-bottom: 20px;
+        font-family: 'Alef', sans-serif;
+      }
+    .event-details-d{
+        position: relative;
+        direction: rtl;
+        width: 85%;
+    }
+    #plus{
+        font-size: 18px;
+        margin-left: 4px;
+        color: #4998B7;
+    }
+    
+    .day-event{
+        justify-items: right;
+    
+    }
+    
+    
+    }
