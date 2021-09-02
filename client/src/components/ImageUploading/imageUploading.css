@@ -1,0 +1,25 @@
+#image-table{
+    width: 80%;
+    margin-right: 40px;
+
+}
+.image-form{
+    margin-top: 20px;
+    
+}
+.preview{
+    width: 80%;
+    margin-top: 5px;
+    margin-right: 40px;
+
+
+}
+.preview-multi{
+    width: 80%;
+    margin-top: 8px;
+    margin-right: 40px;
+
+}
+.img-hr{
+  color:rgb(20, 77, 99);  
+}

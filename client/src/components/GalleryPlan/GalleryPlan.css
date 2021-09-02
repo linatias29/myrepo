@@ -1,0 +1,38 @@
+
+@media only screen and (max-width: 768px) {
+ 
+  .GalleryPlan-add-btn{
+      position: absolute;
+      top:75px;
+      right: 20px;
+    margin: 5px;
+    /* margin-top: 50px; */
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 15px;
+    color: black;
+    border: 2px #4998B7 solid;
+    background-color: white;
+    font-size: 16px;
+margin-bottom: 20px;
+    font-family: 'Alef', sans-serif;
+
+}
+.all-photo{
+    position: relative;
+    top: 10px;
+    left: 45px;
+    width: 80%;
+}
+.daily-plan{
+    position: relative;
+    margin-top: -100px;
+}
+.DailyPlan{
+    position: relative;
+}
+.DailyPlan-add-btn:hover{
+    background-color: #4998B7;
+
+}
+}
