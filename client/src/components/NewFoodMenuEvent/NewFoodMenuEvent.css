@@ -1,0 +1,220 @@
+/* .Dashboard-tool{
+    height: 50px;
+    background-color: aqua;
+} */
+@media only screen and (max-width: 768px) {
+.titel-new-event{
+    font-family: 'Alef', sans-serif;
+    direction: rtl;
+    width: 100%;
+    color: rgb(22, 129, 158);
+    padding-top: 20px;
+    margin-right: 10px;
+    align-items: center;
+    text-align: center;
+
+
+
+}
+.menu-type{
+    font-family: 'Alef', sans-serif;
+    color: rgb(22, 129, 158);
+}
+.menu-type-title{
+    font-family: 'Alef', sans-serif;
+    color: rgb(22, 129, 158);
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+
+}
+#date-piker{
+    font-family: 'Alef', sans-serif;
+    margin-top: 5px;
+    margin-right: 70px;
+    width: 70%;
+    align-items: center;
+    text-align: center;
+    border-radius: 7px;
+    border: 1px #4998B7 solid;
+
+
+}
+#select-time-start{
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: 'Alef', sans-serif;
+    width: 40%;
+    direction: rtl;
+    margin-right: 20px;
+}
+#select-menu{
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: 'Alef', sans-serif;
+    width: 40%;
+    direction: rtl;
+    margin-right: 110px;
+}
+.menu-add-btn{
+    position: absolute;
+    top:110px;
+    right: 115px;
+  margin: 5px;
+  /* margin-top: 50px; */
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 15px;
+  color: black;
+  border: 2px #4998B7 solid;
+  background-color: whitesmoke;
+  font-size: 16px;
+margin-bottom: 20px;
+  font-family: 'Alef', sans-serif;
+}
+.event-add-btn{
+    position: absolute;
+    bottom: -10px;
+    right: 110px;
+  margin: 5px;
+  /* margin-top: 50px; */
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 15px;
+  color: black;
+  border: 2px #4998B7 solid;
+  background-color: whitesmoke;
+  font-size: 16px;
+margin-bottom: 20px;
+  font-family: 'Alef', sans-serif;
+}
+
+#form-event{
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: 'Alef', sans-serif;
+    width: 80%;
+    direction: rtl;
+    margin-right: 30px;
+
+
+}
+#form-event-div{
+    margin-top: 60px;
+    border-radius: 10px;
+    margin-right: 20px;
+    padding-bottom: 70px;
+    background-color: rgba(129, 195, 222, 0.598);
+    width: 90%;
+    position: relative;
+}
+
+
+.event-menu{
+    border-radius: 10px;
+    width: 90%;
+    margin-top: -15px;
+    direction: rtl;
+}
+.event-menu-small{
+    border-radius: 10px;
+    width: 80%;
+    padding-top: 1px;
+    margin-top: -15px;
+
+    direction: rtl;
+
+}
+.discription-menu{
+    font-family: 'Alef', sans-serif;
+    margin-right: 17px;
+
+}
+.discription-menu-small{
+    font-family: 'Alef', sans-serif;
+    margin-right: 0px;
+    margin-top: 9px;
+    font-size: 14px;
+
+}
+.time{
+    font-family: 'Alef', sans-serif;
+    margin-right: 10px;
+    display: flex;
+
+
+
+}
+.time-small{
+    font-family: 'Alef', sans-serif;
+    margin-right: 10px;
+    display: flex;
+    margin-top: 5px;
+
+
+
+
+}
+#child-submit-event-cancel-menu{
+    margin: 5px;
+  
+    /* margin-top: 50px; */
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 15px;
+    color: black;
+    border: 2px #4998B7 solid;
+    background-color: whitesmoke;
+    font-size: 16px;
+margin-bottom: 20px;
+margin-right: 80px;
+    font-family: 'Alef', sans-serif;
+
+}
+
+.delete-event-b{
+    background-color: transparent;
+    border: none;
+    position: relative;
+   
+    margin-top: -7px;
+}
+#child-submit-event-menu{
+    margin: 5px;
+    /* bottom: 7px;
+    right: 10px; */
+    /* margin-top: 50px; */
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 15px;
+    color: black;
+    border: 2px #4998B7 solid;
+    background-color: whitesmoke;
+    font-size: 16px;
+margin-bottom: 20px;
+    font-family: 'Alef', sans-serif;
+
+}
+.child-submit-event-menu-div{
+    margin: 5px;
+display: flex;
+margin-top: 100px;
+    /* margin-top: 50px; */
+ /* position: absolute;
+
+ bottom: 0;
+ right: 0; */
+
+}
+#child-submit:hover{
+    background-color: #4998B7;
+
+}
+#helper{
+    font-family: 'Alef', sans-serif;
+
+}
+.new-menu-event{
+    position: relative;
+}
+}
