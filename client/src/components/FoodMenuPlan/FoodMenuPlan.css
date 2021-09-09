@@ -1,0 +1,45 @@
+
+@media only screen and (max-width: 768px) {
+ 
+  .FoodPlan-add-btn{
+      position: absolute;
+      top:75px;
+      right: 20px;
+    margin: 5px;
+    /* margin-top: 50px; */
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 15px;
+    color: black;
+    border: 2px #4998B7 solid;
+    background-color: white;
+    font-size: 16px;
+margin-bottom: 20px;
+    font-family: 'Alef', sans-serif;
+
+}
+#val{
+    color: #4998B7;
+    font-size: 16px;
+
+    font-family: 'Alef', sans-serif;
+
+
+}
+.all-menu{
+    position: relative;
+    top: 10px;
+    right: 35px;
+}
+/* .daily-plan{
+    position: relative;
+    margin-top: -100px;
+} */
+.DailyPlan{
+    position: relative;
+}
+.DailyPlan-add-btn:hover{
+    background-color: #4998B7;
+
+}
+}
