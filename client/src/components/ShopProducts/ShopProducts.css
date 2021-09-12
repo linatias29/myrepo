@@ -1,0 +1,81 @@
+/* .Dashboard-tool{
+    height: 50px;
+    background-color: aqua;
+} */
+@media only screen and (max-width: 768px) {
+
+
+
+.user-btn{
+    background-color: rgba(114, 230, 203, 0.392);
+    border: none;
+    font-size: 16px;
+    margin: 3px;
+    padding: 5px;
+    font-family: 'Alef', sans-serif;
+    border-radius: 4px;
+    width: 80%;
+    color: rgb(17, 80, 97);
+
+
+}
+.products-details-e{
+    /* align-items: center;
+    justify-self: center; */
+    /* margin-right: 80px; */
+    /* width: 100%;
+    display: grid;
+    grid-column-gap: 60px;
+    grid-row-gap: 20px;
+    align-items: center;
+        justify-self: center;
+    grid-template-columns:repeat(2, 48%); */
+    align-items: center;
+    justify-self: center;
+    /* margin-left: 30px; */
+    display: grid;
+    grid-column-gap: 50px;
+    grid-row-gap: 30px;
+    position: relative;
+    direction: rtl;
+margin-top: 120px;
+width: 90%;
+margin-left: 30px;
+/* direction: ltr; */
+    grid-template-columns:repeat(3, 46%);
+
+}
+.delete{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    position: absolute;
+    top: -13px;
+    left: 0;
+    /* margin-right: 40%;
+    margin-top: -15px; */
+   
+}
+.save{
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    margin-right: 40px;
+    margin-top: -15px;
+   
+}
+
+
+
+#plus{
+    font-size: 18px;
+    margin-left: 4px;
+    color: #4998B7;
+}
+
+
+
+
+
+
+}
