@@ -1,0 +1,83 @@
+#pric-div{
+    /* width: 50%; */
+    display: flex;
+    margin-left: 10px;
+    margin-top: 35px;
+}
+/* *{
+    direction: ltr;
+} */
+#pric-1{
+    margin-right: 10px;
+    width: 100%;
+}
+.price-lable{
+    margin-top: -2px;
+    z-index: 10px;
+ 
+    background-color: white;
+}
+#pay{
+
+    border-radius: 20px;
+    color: black;
+    border: none;
+    background-color: rgb(225, 224, 224);
+    /* border: 1px rgb(83, 83, 83) solid; */
+    /* background-color: rgba(73, 152, 183, 0.219); */
+    font-size: 18px;
+    margin-bottom: 25px;
+padding: 10px;
+margin-top: 70px;
+width: 72%;
+    font-family: 'Alef', sans-serif;
+}
+#pay-back{
+
+    border-radius: 20px;
+    color: black;
+    border: none;
+    /* background-color: rgba(73, 152, 183, 0.219); */
+    font-size: 15px;
+    margin-bottom: 15px;
+margin-top: 90px;
+width: 72%;
+    font-family: 'Alef', sans-serif;
+}
+#pric-2{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.payment{
+    font-family: 'Alef', sans-serif;
+    direction: rtl;
+    width: 100%;
+    color: rgb(22, 129, 158);
+    /* padding-top: 20px; */
+    /* margin-right: 10px; */
+    align-items: center;
+    text-align: center;
+    /* background-color: whitesmoke; */
+
+
+
+}
+.cards{
+margin-right: 50px;
+margin-top: 20px;
+}
+.titel-payment{
+    margin-bottom: 15px;
+}
+#txt{
+    padding: 0;
+}
+#pric-txt{
+    padding-top: 10px;
+}
+/* #pric-img{
+    width: 40px;
+} */
