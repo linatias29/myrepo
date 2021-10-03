@@ -1,16 +1,5 @@
 
-@font-face{
-    font-family:'mf-alexandra';
-    src:url('../../Fonts/mf-alexandra-400.woff');
-    font-weight:normal;
-    font-style:normal;
-}
-@font-face{
-    font-family:'mf-KaffeShachor';
-    src:url('../../Fonts/mf-KaffeShachor-400.woff');
-    font-weight:normal;
-    font-style:normal;
-}
+
 @media only screen and (max-width: 768px) {
 
     .Home{
