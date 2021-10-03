@@ -1,21 +1,18 @@
 import React //, {useState }
     from 'react';
-    import '../PaymentForm.css';
+    import './PaymentForm.css';
     import Button from '@material-ui/core/Button';
     import { Alert, AlertTitle } from '@material-ui/lab';
     import IconButton from '@material-ui/core/IconButton';
     import { makeStyles } from '@material-ui/core/styles';
     import CloseIcon from '@material-ui/icons/Close';
 
-    import Config from '../../../config/config';
+    import Config from '../../config/config';
 import axios from 'axios';
 import {
     TextField,
     Grid,
-    Stepper,
-    Step,
-    StepLabel,
-    Typography,FormLabel
+
 } from "@material-ui/core";
 import {
     CardCvcElement,
@@ -23,17 +20,17 @@ import {
     CardExpiryElement
 } from "@stripe/react-stripe-js";
 // import { useStateValue } from "../../StateContext";
-import StripeInput from '../StripeInput'
-import amex from '../../../Images/cards/amex.png';
-import cirrus from '../../../Images/cards/cirrus.png';
-import diners from '../../../Images/cards/diners.png';
-import dankort from '../../../Images/cards/dankort.png';
-import discover from '../../../Images/cards/discover.png';
-import jcb from '../../../Images/cards/jcb.png';
-import maestro from '../../../Images/cards/maestro.png';
-import mastercard from '../../../Images/cards/mastercard.png';
-import visa from '../../../Images/cards/visa.png';
-import visaelectron from '../../../Images/cards/visaelectron.png';
+import StripeInput from './StripeInput'
+import amex from '../../Images/cards/amex.png';
+import cirrus from '../../Images/cards/cirrus.png';
+import diners from '../../Images/cards/diners.png';
+import dankort from '../../Images/cards/dankort.png';
+import discover from '../../Images/cards/discover.png';
+import jcb from '../../Images/cards/jcb.png';
+import maestro from '../../Images/cards/maestro.png';
+import mastercard from '../../Images/cards/mastercard.png';
+import visa from '../../Images/cards/visa.png';
+import visaelectron from '../../Images/cards/visaelectron.png';
 
 const useStyles = makeStyles((theme) => ({
     root: {

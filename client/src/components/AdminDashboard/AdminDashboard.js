@@ -60,7 +60,7 @@ this.handleChangeSelectList=this.handleChangeSelectList.bind(this);
 
 
       render() {
-        if(this.props.user===null)
+        if(isAuth()===null)
              return <Redirect to={'/'}/>;
         
      

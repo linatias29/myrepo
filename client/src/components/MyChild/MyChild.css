@@ -1,0 +1,54 @@
+/* .Dashboard-tool{
+    height: 50px;
+    background-color: aqua;
+} */
+@media only screen and (max-width: 768px) {
+
+#plus{
+    font-size: 18px;
+    margin-left: 4px;
+    color: #4998B7;
+}
+#add-child-btn{
+    /* margin-top: 10px; */
+    
+    margin-right: 0px;
+    padding-left: 15px;
+    padding-right: 20px;
+    border-radius: 20px;
+    color: black;
+    border: 2px #4998B7 solid;
+    background-color: white;
+    font-size: 14px;
+margin-bottom: 20px;
+    font-family: 'Alef', sans-serif;
+
+}
+.user-name{
+    
+    font-family: 'Alef', sans-serif;
+    font-weight: bold;
+    font-size: 27px;
+    color: rgb(22, 129, 158);
+    margin-bottom: 54px;
+
+}
+.my-children-user{
+    position: absolute;
+    top:150px;
+    direction: rtl;
+    width: 100%;
+    right: 30px;
+    font-family: 'Alef', sans-serif;
+    color: rgb(22, 129, 158);
+
+    
+}
+.title-children-user{
+    /* display: flex; */
+    /* margin-right: -20px; */
+}
+
+
+
+}

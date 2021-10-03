@@ -1,24 +1,10 @@
 import React, {Component} from 'react';
-import PoolBack from '../../Images/poolback.jpeg';
 import './Child.css';
-import FormControl from '@material-ui/core/FormControl';
-import InputLabel from '@material-ui/core/InputLabel';
-import Input from '@material-ui/core/Input';
-import FormHelperText from '@material-ui/core/FormHelperText';
-import Button from '@material-ui/core/Button';
 import {Redirect} from "react-router-dom";
-import Icon from '@material-ui/core/Icon';
-import ChildRegistration from '../ChildRegistration/ChildRegistration';
-import { Divide as Hamburger } from 'hamburger-react'
-import MenuItem from '@material-ui/core/MenuItem';
-import Select from '@material-ui/core/Select';
 import Config from '../../config/config';
 import axios from 'axios';
 import { isAuth } from '../../actions/auth';
 
-import Popup from 'reactjs-popup';
-import ImageUploading from '../ImageUploading/SingleFileUploadComponent';
-import TextareaAutosize from '@material-ui/core/TextareaAutosize';
 export default class Child extends Component {
     constructor(props, context) {
         super(props, context);
@@ -80,8 +66,8 @@ console.log('delete child')
    
 
       render() {
-        // if(this.props.user===null)
-        // return <Redirect to={'/'}/>;
+        if(isAuth()===null)
+        return <Redirect to={'/'}/>;
      if(this.state.delete) return '';
      if(this.state.edit)
        return <Redirect to={{pathname:'/ChildRegistration' ,update:true, child:this.props.child}} />;
@@ -106,11 +92,7 @@ console.log('delete child')
 
        </div>
 
-       {/* <div style={{display:'flex'}}>
-      {this.state.saveButoon?<button onClick={this.updateUser} className='save'>     <span class="iconify" data-icon="dashicons:saved" data-inline="false"></span>
-</button>:''}
-      </div> */}
-
+     
 
      </div>):<p className='child-name'>{this.props.child.name}</p>}
 

@@ -19,8 +19,7 @@ import ShopCart from './components/ShopCart/ShopCart';
 import NewDayEvent from './components/NewDayEvent/NewDayEvent';
 import NewFoodMenuEvent from './components/NewFoodMenuEvent/NewFoodMenuEvent';
 import NewGalleryEvent from './components/NewGalleryEvent/NewGalleryEvent';
-import PaymentForm from './components/PaymentForm/Stepper';
-import UserDashboardNav from './components/UserDashboardNav/UserDashboardNav';
+
 
 import axios from 'axios';
 import Config from './config/config';
@@ -138,6 +137,8 @@ updateShopProduct(products){
         if(res.data.status===400)//pasaawor
         return false;
         localStorage.setItem('user',JSON.stringify(res.data.user))
+        console.log("updateUser")
+
        console.log(res.data.user)
         return true;
   
@@ -185,7 +186,7 @@ updateShopProduct(products){
                            loginStatus={this.state.loginStatus}
                                  />} />
                                         <Route path={'/UserDashboard'} exact
-                       render={(props) =>isAuth().type===('1')?
+                       render={(props) =>isAuth()===null||isAuth().type===('1')?
                            <UserDashboard {...props}
                            user={this.state.user}
                            updateUser={this.updateUser}
